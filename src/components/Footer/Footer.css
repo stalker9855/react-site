@@ -1,0 +1,21 @@
+* {
+  font-family: Rubik;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+footer  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: rgba(0,0,0,0.1);
+  border-radius: 0px 0px 10px 10px;
+  /* backdrop-filter: blur(10px); */
+}
+li,a, button {
+  font-weight: 500;
+  font-size: 0.5rem;
+  color: #edf0f1;
+  text-decoration: none;
+}

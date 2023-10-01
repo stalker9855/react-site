@@ -1,0 +1,43 @@
+*, *::before, *::after() {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  border-radius: 15px;
+  border: solid;
+  overflow: hidden;
+  box-shadow: 0 2px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.5);
+  transition: all 0.18s ease 0s;
+  border-color: #a7999e;
+}
+.card:hover{
+  border: solid;
+  border-color: white;
+}
+.card  img {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+.card__title {
+  color: white;
+  padding: 1rem;
+}
+.card__description {
+  color: white;
+  padding: 1rem 1rem;
+}
+.checked {
+  border: solid;
+  border-color: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 40px rgba(255,255,255, 0.5);
+
+}

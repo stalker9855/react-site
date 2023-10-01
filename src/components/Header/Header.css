@@ -1,0 +1,67 @@
+* {
+  font-family: Rubik;
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+header { 
+  box-shadow: 0 2px 50px rgba(0,0,0,0.4);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  background: rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 10px 10px;
+}
+
+li,a, button {
+  font-weight: bolder;
+  font-size: 0.5rem;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #282828;
+}
+
+button {
+  color: #282828;
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(254, 242, 204, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(254, 242, 204, 0.8);
+}
+#selected {
+  text-shadow: 1px 0 10px white;
+}
