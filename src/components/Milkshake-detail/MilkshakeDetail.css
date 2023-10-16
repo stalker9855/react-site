@@ -1,0 +1,136 @@
+* {
+  color: white;
+   }
+.img-main {
+  border: white solid 0.2rem;
+  border-radius: 1rem;
+  width: 100%;
+  display: block;
+}
+.main-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.product-div {
+  margin: 1rem 0;
+  padding: 2rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 3px;
+  column-gap: 10px;
+  display: flex;
+}
+.product-div-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+}
+.product-div-right {
+  flex: 1;
+  padding: 20px;
+}
+.img-container img{
+margin-bottom: 20px;
+ width: 300px;
+}
+.product-div-right span {
+  display: block;
+}
+.product-name {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.product-price{
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+.product-description {
+  font-weight: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  opacity: 0.9;
+  margin-top: 22px;
+}
+.btn-groups {
+  display: flex;
+  margin-top: 22px;
+}
+.btn-groups button {
+  align-items: center;
+    color: #282828;
+    font-size: 0.6rem;
+    width: 35%;
+    padding: 0.4rem 0.7rem;
+    margin: 0.2rem 0.3rem 0.8rem 0.5rem;
+    background-color: rgba(255, 214, 255, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+.comment-section {
+  margin-top: 30px;
+}
+
+.comment-section h2 {
+  font-size: 24px;
+}
+
+.comment-section form div {
+  margin-bottom: 10px;
+}
+
+.comment-section form label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.comment-section form input,
+.comment-section form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.comment-section form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: rgba(255, 214, 255, 1);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-section form button:hover {
+  background-color: #ff1493;
+}
+
+.comments-list div {
+  margin-bottom: 10px;
+}
+
+.comments-list p {
+  font-size: 16px;
+}
+.input-comment {
+  color: #282828;
+}

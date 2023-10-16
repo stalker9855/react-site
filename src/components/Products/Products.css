@@ -41,3 +41,24 @@
   box-shadow: 0 2px 40px rgba(255,255,255, 0.5);
 
 }
+.card__button {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.card__button button {
+  align-items: center;
+  color: #282828;
+  font-size: 0.6rem;
+  padding: 0.4rem 0.7rem;
+  margin: 0.2rem 0.3rem 0.8rem 0.5rem;
+  background-color: rgba(255, 214, 255, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+#add {
+  background-color: #9CFF88;
+}

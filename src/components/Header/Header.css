@@ -48,11 +48,11 @@ li,a, button {
   color: #282828;
 }
 
-button {
+.header__button {
   color: #282828;
   margin-left: 20px;
   padding: 9px 25px;
-  background-color: rgba(254, 242, 204, 1);
+  background-color: rgba(255, 214, 255, 1);
   border: none;
   border-radius: 50px;
   cursor: pointer;

@@ -15,7 +15,7 @@ function Header({selectedProducts}) {
           {selectedProducts > 0? <li id="selected">SELECTED: {selectedProducts}</li> : undefined}
         </ul>
       </nav>
-      <a className="cta" href=""><button>Login</button></a>
+      <a className="cta" href=""><button className="header__button">Login</button></a>
     </header>
   )
 }
